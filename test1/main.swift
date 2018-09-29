@@ -8,5 +8,13 @@
 
 import Foundation
 
-print("Hello, World!")
+var index = 0
+var k = 0
+
+while index < 100
+{
+    index = index + 1
+    k += index
+    print(k)
+}
 
